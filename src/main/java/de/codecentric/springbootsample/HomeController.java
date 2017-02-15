@@ -27,7 +27,7 @@ public class HomeController {
 
     @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
-    String home(ModelMap model) {
+    String home() {
         return "demo!";
     }
 }
